@@ -1,39 +1,26 @@
-/*  your css code here. If applicable */
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-body{
-    background-color:#f5f5f5;
-}
-main{
-    margin: auto;
-    /* border:1px solid black; */
-    padding: 1rem;
-}
-main h1{
-    margin: auto;
-    width:90%;
-}
-.testimonials{
-    background-color: white;
-    width:90%;
-    margin:1rem auto;
-   border:2px solid #ebe7e7;
-   padding:1rem;
+
+
+.container{
+	display:block;
+	padding:50px;
+	background-color:#f5f5f5;
+	
 }
 
-.testimonials .content{
-    padding:0rem 1rem 0.4rem 1rem;
-    /* border:1px solid black; */
-    /* display: flex; */
-  /* font-weight:lighter; */
+.box{
+	
+	background-color:white;
+	font-style:italic;
+	margin:10px;
+	text-align:right;
+	
 }
-.person{
-    /* border:1px solid black;   */
-/*     text-align: end; */
-    text-align:right;
-    padding: 0rem 1rem;
 
+.box-i{
+
+}
+.child{
+	background-color:white;
+	
+	margin:10px;
 }
